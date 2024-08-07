@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "Enter username"
-read Username
+read -s Username
 echo "Enter password"
-read Password
+read -s Password
 echo "username is $Username and password is $Password"
