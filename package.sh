@@ -7,7 +7,8 @@ then
     exit 1
 else
     echo "you are root user"
-    yum install mysql-server -y
+    yum install mysql -y
+    echo "if completed"
 fi
 
  echo $?
