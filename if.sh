@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ $1 -gt 20 ]
+if [ $1 -ge 20 ]
 then
     echo "provided number is greater than 20"
 else
