@@ -8,5 +8,5 @@ then
 else
     echo "you are root user"
 fi
-dnf install mysql-server -y
+yum install mysql-server -y
  echo $?
