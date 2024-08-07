@@ -1,0 +1,9 @@
+#!/bin/bash
+person1=seenu
+person2=Mani
+
+echo "$person1:hello, how are you"
+echo "$person2:Am fine how are you"
+echo "$person1: fine too, what is your career plan"
+echo "$person2: Am planning to learn devops"
+echo "$person1: Good practice well and get good job"
