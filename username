@@ -4,4 +4,4 @@ echo "Enter username"
 read Username
 echo "Enter password"
 read Password
-echo "username is $Username and password is $Password
+echo "username is $Username and password is $Password"
