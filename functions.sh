@@ -1,7 +1,7 @@
 #!/bin/bash
 
 user=$(id -u)
-fun=(){
+FUN=(){
 if [ $1 -ne 0 ]
 then
     echo "$2 Failure"
@@ -21,9 +21,9 @@ fi
 
 yum install mysql -y
 
-fun $? "Insalling mysql"
+FUN $? "Insalling mysql"
 echo "========================="
 
 yum install openssh -y
 
-fun $? "Installing openssh"
+FUN $? "Installing openssh"
