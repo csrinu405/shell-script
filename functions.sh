@@ -17,6 +17,7 @@ then
     echo "package is installed"
 else
     echo "package is not installed"
+fi
 yum install openssh -y
 
 if [ $? -eq 0]
@@ -24,3 +25,4 @@ then
     echo "package installed"
 else
     echo "package not installed"
+fi
