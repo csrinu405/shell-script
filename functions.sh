@@ -10,3 +10,8 @@ then
 else
     echo "you are normal user"
 fi
+yum install mysql -y
+
+yum install openssh -y
+
+echo $?
