@@ -1,4 +1,4 @@
 #!/bin/bash
 
 echo "passed variables are" $@
-echo "first value is" $@[1]
+echo "first value is" $($@[1])
