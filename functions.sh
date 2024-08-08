@@ -10,6 +10,7 @@ then
 else
     echo "you are root user"
 fi
+
 yum install mysql -y
 
 if [ $? -eq 0 ]
@@ -20,7 +21,7 @@ else
 fi
 yum install openssh -y
 
-if [ $? -eq 0]
+if [ $? -eq 0 ]
 then
     echo "package installed"
 else
