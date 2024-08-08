@@ -10,8 +10,6 @@ else
     echo "$2 Success"
 fi
 }
-
-
 if [ $user -ne 0 ]
 then
     echo "you are a normal user"
@@ -19,12 +17,8 @@ then
 else
     echo "you are root user"
 fi
-
 yum install mysql -y
-
 FUN $? "Insalling mysql"
 echo "========================="
-
 yum install openssh -y
-
 FUN $? "Installing openssh"
