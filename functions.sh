@@ -9,3 +9,4 @@ then
     echo "you are a root user"
 else
     echo "you are normal user"
+fi
