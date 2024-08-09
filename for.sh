@@ -25,7 +25,6 @@ do
     else
         echo "$i package is installed"
     fi
-    fi
 else
    echo "$i package is already installed"
 fi
