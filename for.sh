@@ -7,6 +7,7 @@ logfile=$(echo $0|cut -d "." -f1)
 if [ $user -ne 0 ]
 then
     echo "you are not a root user"
+    exit 1
 else
     echo "you are a root user and proceeding"
 fi
