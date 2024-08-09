@@ -16,15 +16,15 @@ do
   yum list installed |grep $i
   if [ $? -ne 0 ] 
   then 
-     echo "package is not installed"
+     echo "$i package is not installed, now installing"
      yum install $i -y &>>$logfile
      if [ $? -ne 0 ]
      then
-        echo "package is not installed check logs at $logfile"
+        echo "$i package is not installed check logs at $logfile"
     else
-        echo "package is installed"
+        echo "$i package is installed"
     fi
 else
-   echo "package is installed"
+   echo "$i package is already installed"
 fi
 done
