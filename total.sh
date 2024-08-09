@@ -4,7 +4,7 @@ user=$(id -u)
 time=$(date +%F-%H-%M-%S)
 logfile=$(echo $0|cut -d "." -f1)
 g="\e[0;92m"
-n="e[0m"
+n="\e[0m"
 status(){
 if [ $1 -ne 0 ]
 then
