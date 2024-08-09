@@ -14,7 +14,7 @@ fi
 
 for i in $@
 do 
-  yum list installed |grep $i
+  yum list installed |grep -w $i
   if [ $? -ne 0 ] 
   then 
      echo "$i package is not installed, now installing"
