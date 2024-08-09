@@ -19,7 +19,7 @@ then
     echo "package is not installed"
 else
     echo -e "$2 package is $g installed $n"
-
+fi
 }
 if [ $user -ne 0 ]
 then
